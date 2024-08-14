@@ -1,0 +1,249 @@
+(footprint "L_Canmi_2016_2.0x1.6mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TDK NLV25, 2.5x2.0x1.8mm, https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_standard_nlv25-ef_en.pdf")
+	(tags "tdk nlv25 nlcv25 nlfv25")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "User.8")
+		(uuid "d9c34600-25f8-4ff6-bbf1-af0fede9454c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Canmi_2016_2.0x1.6mm"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a45730ab-3cde-4ba3-9d41-407a9f39f2c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "762482ab-d8c4-44db-bd5b-933795f31a47")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbc6a041-a6df-421f-9c71-612fac7d2f6e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8e8877b-7aa1-4137-b673-bbbbe89380fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.35 0)
+		(end -0.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1595f394-9b0d-4955-8d99-efe20feb6cca")
+	)
+	(fp_line
+		(start -0.05 0)
+		(end 0.05 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "db146c1e-3b42-40f4-84f0-ed755acafbc2")
+	)
+	(fp_line
+		(start 0.35 0)
+		(end 0.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0d41a392-5de2-43b4-a575-6147d196298a")
+	)
+	(fp_arc
+		(start -0.35 0)
+		(mid -0.2 -0.15)
+		(end -0.05 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bea501c9-c9b7-465b-8873-d2b62cfcfe8f")
+	)
+	(fp_arc
+		(start 0.05 0)
+		(mid 0.2 -0.15)
+		(end 0.35 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bcee5e43-418b-4088-9d31-2fa87aeb8f3b")
+	)
+	(fp_line
+		(start -1.15 -1)
+		(end -1 -1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "29fc604f-af98-4533-a568-8aad8764cc0b")
+	)
+	(fp_line
+		(start -1.15 1)
+		(end -1.15 -1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d4571d1-3d7c-42f2-8f87-b3a52a878332")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 1.15 -1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "176aa745-b06c-409e-91ce-3093da695cf6")
+	)
+	(fp_line
+		(start 1.15 -1)
+		(end 1.15 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b58ac7a-5f21-4b48-8b8f-b1e06e032767")
+	)
+	(fp_line
+		(start 1.15 1)
+		(end -1.15 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "807ada32-f77b-4811-a906-8b26187ba066")
+	)
+	(fp_line
+		(start -1 -0.85)
+		(end 1 -0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6578e109-86cb-46e1-80b1-3bc89491fad8")
+	)
+	(fp_line
+		(start -1 0.85)
+		(end -1 -0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fef60749-6114-4cdf-be12-b85ba304bc6e")
+	)
+	(fp_line
+		(start 1 -0.85)
+		(end 1 0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ba3d4c14-a422-4911-a68d-4727fb7382a5")
+	)
+	(fp_line
+		(start 1 0.85)
+		(end -1 0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "cff0904f-fcf6-4437-b5c5-a9bee822ca77")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "User.9")
+		(uuid "d09d493f-4fe6-4e59-b7e5-1404191ccf7f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.75 0)
+		(size 0.5 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.21)
+		(uuid "60109bc9-2112-4ae1-bcc8-8c1ddf7e73fa")
+	)
+	(pad "2" smd roundrect
+		(at 0.75 0)
+		(size 0.5 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.21)
+		(uuid "fe035038-98e1-473e-9a39-1132bf46119c")
+	)
+	(model "D:/Documents/KiCad/8.0/Canmi/3d/L/L_2016.step"
+		(offset
+			(xyz 0 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

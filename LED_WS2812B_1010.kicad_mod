@@ -1,0 +1,157 @@
+(footprint "LED_WS2812B_1010"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.3 0)
+		(unlocked yes)
+		(layer "User.8")
+		(uuid "4d6d3e5b-5e8a-47ec-9aa5-8612d7a7650d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED_WS2812B_1010"
+		(at 0 1.45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32428501-fa12-4235-a7de-970391d8dee5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 3.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d5e0fec-d6df-4acf-861d-12c1c33517b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 3.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d71de414-0fc8-4bbd-b038-c54413f547e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 3.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2336fa7-0a05-44ee-9433-772892113390")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.05 -0.5)
+		(end -0.05 -0.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e25e7893-8e03-4b03-b4bb-4fcbb75411df")
+	)
+	(fp_line
+		(start -0.05 -0.05)
+		(end -0.5 -0.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "53ace566-9f2d-42a1-8b55-c7c44e989ad7")
+	)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "c7b4679d-892a-4659-8512-a7789d5ffe71")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.95 0)
+		(unlocked yes)
+		(layer "User.9")
+		(uuid "473ff02a-f2c7-4d2a-a92a-f24d1a0ef0aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.35 -0.35)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "df023e88-18b8-414f-9c39-bf4e07efe3af")
+	)
+	(pad "2" smd roundrect
+		(at -0.35 0.35)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "9789fea5-6b84-4ccd-948d-5a9935d5ba64")
+	)
+	(pad "3" smd roundrect
+		(at 0.35 0.35)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "04b6e9c6-bd67-4df0-b6ca-ae7a1013108b")
+	)
+	(pad "4" smd roundrect
+		(at 0.35 -0.35)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "78047ee0-9803-405b-8895-5db706f4aeb1")
+	)
+	(model "D:/Documents/KiCad/8.0/Canmi/3d/LED/WS2812B-1010.step"
+		(offset
+			(xyz 0 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
